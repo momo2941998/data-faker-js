@@ -1,0 +1,14 @@
+{
+  "name": "fake-data",
+  "version": "1.0.0",
+  "description": "fake data",
+  "main": "main.js",
+  "scripts": {
+    "start": "node createData"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "randexp": "^0.5.3"
+  }
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "fromUser": {
+      "_id": "k99RVYnvyJkQ1KSdFnoHB",
+      "username": "nhân viên giám sát Y"
+    },
+    "toUser": [
+      {
+        "_id": "zET0jjGLzDxqYwF892350",
+        "isSeen": false
+      },
+      {
+        "_id": "kNp_Rfj3CN0O_GSccjiMi",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố cháy rừng A phát hiện",
+    "level": 2,
+    "createdAt": "2020-11-21T08:03:10.527Z",
+    "status": 0,
+    "incident": {
+      "_id": "qiPCQOGBXyxLm3QCWJvTGqMzyP",
+      "_type": 1
+    },
+    "link": "http://test.com/qiPCQOGBXyxLm3QCWJvTGqMzyP"
+  },
+  {
+    "fromUser": {
+      "_id": "mIb7NlrXP52i7ZYdFbXev",
+      "username": "kiểm lâm Z"
+    },
+    "toUser": [
+      {
+        "_id": "klXfXBGvRDr0tL52GxTYt",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố drone A phát hiện",
+    "level": 4,
+    "createdAt": "2020-11-21T08:07:53.530Z",
+    "status": 0,
+    "incident": {
+      "_id": "tzQSJplpU3qIGfHYFjRX49dpaw",
+      "_type": 1
+    },
+    "link": "http://test.com/tzQSJplpU3qIGfHYFjRX49dpaw"
+  },
+  {
+    "fromUser": {
+      "_id": "jE2w0N6Yi4EdgB_ErsZCB",
+      "username": "kiểm lâm Z"
+    },
+    "toUser": [
+      {
+        "_id": "ssvusic9MC10dWpb6ecCR",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố  hệ thống C thay đổi",
+    "level": 1,
+    "createdAt": "2020-11-21T07:34:05.532Z",
+    "status": 2,
+    "incident": {
+      "_id": "d3PYXZteZKFy4A6NEyRkmVPBUZ",
+      "_type": 1
+    },
+    "link": "http://test.com/d3PYXZteZKFy4A6NEyRkmVPBUZ"
+  },
+  {
+    "fromUser": {
+      "_id": "nmd84nHgNcQ0XDqZz7Xz6",
+      "username": "admin X"
+    },
+    "toUser": [
+      {
+        "_id": "tvaZXWjo_gg8DMDmmIRAZ",
+        "isSeen": false
+      },
+      {
+        "_id": "vB2CivvHVToieuIdbJIHf",
+        "isSeen": false
+      },
+      {
+        "_id": "s9Ku1sfBdgNCT_Ah8fUKX",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố cháy rừng C thay đổi",
+    "level": 1,
+    "createdAt": "2020-11-21T07:55:28.538Z",
+    "status": 0,
+    "incident": {
+      "_id": "sJX1jr9G91sghfO69YascM9ZDb",
+      "_type": 1
+    },
+    "link": "http://test.com/sJX1jr9G91sghfO69YascM9ZDb"
+  },
+  {
+    "fromUser": {
+      "_id": "yuAkQbiMseKcORUt7FHiI",
+      "username": "admin Y"
+    },
+    "toUser": [
+      {
+        "_id": "erYf2THB23xW_XStFWXvL",
+        "isSeen": false
+      },
+      {
+        "_id": "duRYpF8_9ZiXxyHgmEtbY",
+        "isSeen": true
+      },
+      {
+        "_id": "snKUt4mRGVg7Ufq9iudTJ",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố drone C phát hiện",
+    "level": 4,
+    "createdAt": "2020-11-21T07:07:19.543Z",
+    "status": 2,
+    "incident": {
+      "_id": "wayrpxMfw2b1uXJw_x8pzpeEAL",
+      "_type": 1
+    },
+    "link": "http://test.com/wayrpxMfw2b1uXJw_x8pzpeEAL"
+  },
+  {
+    "fromUser": {
+      "_id": "cCGLATjJj_ih0WIBPSKm8",
+      "username": "nhân viên giám sát Y"
+    },
+    "toUser": [
+      {
+        "_id": "pZxGWYded7tCIhSMsLwuq",
+        "isSeen": true
+      },
+      {
+        "_id": "ijy7rfhZ9EhmsCM4rNWOd",
+        "isSeen": false
+      },
+      {
+        "_id": "jyiBAdtzwQNkZyYOk7V2f",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố cháy rừng A thay đổi",
+    "level": 1,
+    "createdAt": "2020-11-21T07:54:30.548Z",
+    "status": 2,
+    "incident": {
+      "_id": "dP8_Iaq79stqjn1BY7OeOV2txU",
+      "_type": 0
+    },
+    "link": "http://test.com/dP8_Iaq79stqjn1BY7OeOV2txU"
+  },
+  {
+    "fromUser": {
+      "_id": "cawihaBVodO7ubBRIz0T4",
+      "username": "nhân viên giám sát X"
+    },
+    "toUser": [
+      {
+        "_id": "e9hJ1bnEA0JZSqtNTRGH7",
+        "isSeen": false
+      },
+      {
+        "_id": "fNJkWud654zbsuH5l4nDW",
+        "isSeen": false
+      },
+      {
+        "_id": "ftPZF8WlH1XAeXa1SwZ7J",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố drone A thay đổi",
+    "level": 4,
+    "createdAt": "2020-11-21T07:15:36.555Z",
+    "status": 2,
+    "incident": {
+      "_id": "kEwPTKGP6VOogqp47OPQvkn3cq",
+      "_type": 0
+    },
+    "link": "http://test.com/kEwPTKGP6VOogqp47OPQvkn3cq"
+  },
+  {
+    "fromUser": {
+      "_id": "zZuLam9JG8X2PxC05ImB5",
+      "username": "nhân viên giám sát Z"
+    },
+    "toUser": [
+      {
+        "_id": "gtdXs_M8F6A5iUJeZEOfC",
+        "isSeen": true
+      },
+      {
+        "_id": "c0nmp1ifl3SiZsSM5BDIp",
+        "isSeen": false
+      },
+      {
+        "_id": "xAcQnwFIvi_OHAAbGXdPv",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố drone C phát hiện",
+    "level": 2,
+    "createdAt": "2020-11-21T07:56:54.558Z",
+    "status": 0,
+    "incident": {
+      "_id": "aMpbtm0l_7lVb47btmGyhPHSRY",
+      "_type": 0
+    },
+    "link": "http://test.com/aMpbtm0l_7lVb47btmGyhPHSRY"
+  },
+  {
+    "fromUser": {
+      "_id": "oGQ8WoSmZ87bNasOLlCnJ",
+      "username": "kiểm lâm X"
+    },
+    "toUser": [
+      {
+        "_id": "mw6ZLhRrla4ZH22wKiTiw",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố cháy rừng A phát hiện",
+    "level": 2,
+    "createdAt": "2020-11-21T07:20:08.560Z",
+    "status": 2,
+    "incident": {
+      "_id": "p2kNLYzsiGvvY_P9hOF1udC_NZ",
+      "_type": 0
+    },
+    "link": "http://test.com/p2kNLYzsiGvvY_P9hOF1udC_NZ"
+  },
+  {
+    "fromUser": {
+      "_id": "gskGmrYxmZx4DZ31YAfLA",
+      "username": "admin X"
+    },
+    "toUser": [
+      {
+        "_id": "rDKHmVu2vO8AXzcg09k14",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố drone B phát hiện",
+    "level": 1,
+    "createdAt": "2020-11-21T08:28:09.562Z",
+    "status": 0,
+    "incident": {
+      "_id": "anuJvxogaAy35qshyQZEyPnv_v",
+      "_type": 2
+    },
+    "link": "http://test.com/anuJvxogaAy35qshyQZEyPnv_v"
+  },
+  {
+    "fromUser": {
+      "_id": "oHJ21o7IhOHb03zAlyIcI",
+      "username": "nhân viên giám sát Z"
+    },
+    "toUser": [
+      {
+        "_id": "xVtyX0YjpQMSVIjtoU7Dl",
+        "isSeen": false
+      },
+      {
+        "_id": "o_BXY67xP5UUJjgCFf20y",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố drone A phát hiện",
+    "level": 5,
+    "createdAt": "2020-11-21T07:21:17.564Z",
+    "status": 1,
+    "incident": {
+      "_id": "jjib3n9NA46VYhU6ymMFgyBK9p",
+      "_type": 2
+    },
+    "link": "http://test.com/jjib3n9NA46VYhU6ymMFgyBK9p"
+  },
+  {
+    "fromUser": {
+      "_id": "jK_QTcKLa9C_BmsIh3bnF",
+      "username": "kiểm lâm X"
+    },
+    "toUser": [
+      {
+        "_id": "mFPFijxtmLDfbZfkHVer0",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố drone A thay đổi",
+    "level": 3,
+    "createdAt": "2020-11-21T08:34:39.565Z",
+    "status": 0,
+    "incident": {
+      "_id": "w91gWPECTiexospDaYKEBs17ck",
+      "_type": 2
+    },
+    "link": "http://test.com/w91gWPECTiexospDaYKEBs17ck"
+  },
+  {
+    "fromUser": {
+      "_id": "ik7jCh73zHx5D_FzAZwxs",
+      "username": "admin Z"
+    },
+    "toUser": [
+      {
+        "_id": "rpsyB0g6qcqxRJMMgobhK",
+        "isSeen": false
+      },
+      {
+        "_id": "dx2VrVamPh9eDjGd2DEWP",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố  hệ thống B thay đổi",
+    "level": 3,
+    "createdAt": "2020-11-21T06:54:35.566Z",
+    "status": 0,
+    "incident": {
+      "_id": "nksw3hTbMrKqBEu8so0bDAPpGu",
+      "_type": 1
+    },
+    "link": "http://test.com/nksw3hTbMrKqBEu8so0bDAPpGu"
+  },
+  {
+    "fromUser": {
+      "_id": "ryyOAEin8saRgFyUOs65K",
+      "username": "admin Y"
+    },
+    "toUser": [
+      {
+        "_id": "cTwkyawr4TQ76RgPAtfRn",
+        "isSeen": true
+      },
+      {
+        "_id": "iyQaCmcnTjGaONDDa4cq4",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố drone B phát hiện",
+    "level": 2,
+    "createdAt": "2020-11-21T08:31:26.567Z",
+    "status": 1,
+    "incident": {
+      "_id": "a2fu0qcnxp3hNUl1En5BQWAwUP",
+      "_type": 4
+    },
+    "link": "http://test.com/a2fu0qcnxp3hNUl1En5BQWAwUP"
+  },
+  {
+    "fromUser": {
+      "_id": "m1Pgot_RxmuEkn9IKJthh",
+      "username": "admin Z"
+    },
+    "toUser": [
+      {
+        "_id": "k1Kgw6RUswD5RCunAC59O",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố cháy rừng B thay đổi",
+    "level": 2,
+    "createdAt": "2020-11-21T07:35:10.569Z",
+    "status": 0,
+    "incident": {
+      "_id": "lhMIpCCR_ST_OoPDTkJRNGEBqx",
+      "_type": 4
+    },
+    "link": "http://test.com/lhMIpCCR_ST_OoPDTkJRNGEBqx"
+  },
+  {
+    "fromUser": {
+      "_id": "vZSD6i_xkfsNjcB1BWllQ",
+      "username": "kiểm lâm Z"
+    },
+    "toUser": [
+      {
+        "_id": "iRDxoj3VEsXvicGs0EOIf",
+        "isSeen": true
+      },
+      {
+        "_id": "k6477zpTe4h3XbI_B8Yhc",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố  hệ thống B thay đổi",
+    "level": 4,
+    "createdAt": "2020-11-21T07:44:20.571Z",
+    "status": 2,
+    "incident": {
+      "_id": "fJlZ6agYknorwCJw74gOd8I5qH",
+      "_type": 3
+    },
+    "link": "http://test.com/fJlZ6agYknorwCJw74gOd8I5qH"
+  },
+  {
+    "fromUser": {
+      "_id": "doO2wntHbhu4YPM3icywk",
+      "username": "kiểm lâm Z"
+    },
+    "toUser": [
+      {
+        "_id": "xR0mKuuHDGfKfcuRh9qUe",
+        "isSeen": true
+      },
+      {
+        "_id": "hUItN9Y5nsJcHTcJAHhP1",
+        "isSeen": false
+      },
+      {
+        "_id": "udKL3FI07aApWrFd9kVSn",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố  hệ thống A thay đổi",
+    "level": 1,
+    "createdAt": "2020-11-21T08:07:52.575Z",
+    "status": 0,
+    "incident": {
+      "_id": "y_Wr0XuYVFjyW3wSa5y8jAYZNf",
+      "_type": 1
+    },
+    "link": "http://test.com/y_Wr0XuYVFjyW3wSa5y8jAYZNf"
+  },
+  {
+    "fromUser": {
+      "_id": "sfl9QoTSGpX0DUAxkpcTU",
+      "username": "nhân viên giám sát Y"
+    },
+    "toUser": [
+      {
+        "_id": "gWaKCJyE7QTOF5iP0LHrS",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố drone C phát hiện",
+    "level": 2,
+    "createdAt": "2020-11-21T08:27:37.576Z",
+    "status": 2,
+    "incident": {
+      "_id": "sr2R9d4AvYIUYssTO5eTM17cxs",
+      "_type": 3
+    },
+    "link": "http://test.com/sr2R9d4AvYIUYssTO5eTM17cxs"
+  },
+  {
+    "fromUser": {
+      "_id": "zQpAsu__umGDKDlm2w96g",
+      "username": "nhân viên giám sát Z"
+    },
+    "toUser": [
+      {
+        "_id": "qm3uSZx2GgCLpmzc6jx59",
+        "isSeen": true
+      },
+      {
+        "_id": "sM7BZWfL1S1tc0d6bvXuJ",
+        "isSeen": false
+      }
+    ],
+    "content": "sự cố  hệ thống B phát hiện",
+    "level": 5,
+    "createdAt": "2020-11-21T07:32:11.579Z",
+    "status": 0,
+    "incident": {
+      "_id": "gqFUWqQgiSFoa_gQyephywAzLy",
+      "_type": 0
+    },
+    "link": "http://test.com/gqFUWqQgiSFoa_gQyephywAzLy"
+  },
+  {
+    "fromUser": {
+      "_id": "jVmIAT2hpHBgJPOuzjW4w",
+      "username": "admin X"
+    },
+    "toUser": [
+      {
+        "_id": "gkCJ02hA7ODBHL4IBWC0q",
+        "isSeen": false
+      },
+      {
+        "_id": "aWiAKcx6IR_gHVhBxUWJf",
+        "isSeen": true
+      },
+      {
+        "_id": "cUjiA6ZhUiOKg08An8mcj",
+        "isSeen": true
+      }
+    ],
+    "content": "sự cố cháy rừng A phát hiện",
+    "level": 2,
+    "createdAt": "2020-11-21T06:58:38.580Z",
+    "status": 0,
+    "incident": {
+      "_id": "wPJapkcUidUdSujVLALmrJBoFt",
+      "_type": 3
+    },
+    "link": "http://test.com/wPJapkcUidUdSujVLALmrJBoFt"
+  }
+]
