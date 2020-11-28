@@ -27,13 +27,14 @@ var ranBool = function () {
 let genData= (number) => {
   let data = [];
   for (let i = 0;i< number; i++){
-    let incidentId = new RandExp(/[a-z]\w{25}/).gen();
+    let refID = new RandExp(/[a-z]\w{25}/).gen();
     let numOfReceive = randomInt(3)+1;
     let arr = [];
     for (let i = 0; i< numOfReceive; i++){
       let e = {
         _id: new RandExp(/[a-z]\w{20}/).gen(),
-        isSeen: ranBool()
+        isSeen: ranBool(),
+        status: randomInt(2) 
       }
       arr.push(e);
     }
@@ -41,19 +42,17 @@ let genData= (number) => {
       // id: new RandExp(/[a-z]\w{30}/).gen(),
       fromUser: {
         _id: new RandExp(/[a-z]\w{20}/).gen(),
-        username: new RandExp(/(kiểm lâm|nhân viên giám sát|admin) (X|Y|Z)/).gen()
+        // username: new RandExp(/(kiểm lâm|nhân viên giám sát|admin) (X|Y|Z)/).gen()
       },
       toUser: arr,
       content: new RandExp("sự cố (drone|cháy rừng| hệ thống) (A|B|C) (phát hiện|thay đổi)").gen(),
       level: randomInt(5) + 1,
       createdAt: randomDate(),
-      status: randomInt(3),
-      incident: {
-        _id: incidentId,
-        _type: randomInt(5)
-      },
-      
-      link: 'http://test.com/' + incidentId
+      ref: {
+        _id: refID,
+        _type: randomInt(5),
+        _link: "http://test.com/" + new RandExp(/[a-z]\w{5}/).gen() + refID
+      }
     }
     data.push(e);
   }
@@ -61,7 +60,7 @@ let genData= (number) => {
   return data;
 }
 
-let data1 = genData(20);
+let data1 = genData(1500);
 console.log(data1);
 fs.writeFile("./data.json", JSON.stringify(data1, null, 2), function(err) {
     if(err) {
